@@ -7,10 +7,6 @@
 
 ## Trabajos Practicos
 
-1. Trabajo Practico 1<br>
+1. [Trabajo Practico 1](https://github.com/TomiCassanelli/TP01)<br>
    1.1. [Repo A](https://github.com/TomiCassanelli/TP01-RepoA)<br>
    1.2. [Repo B](https://github.com/TomiCassanelli/TP01-RepoB)<br>
-   
-2. Trabajo Practico 2<br>
-   
-3. Trabajo Practico 3<br>
