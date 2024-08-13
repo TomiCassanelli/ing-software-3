@@ -4,18 +4,17 @@
 ## Trabajo Practico N°2 - Introduccion a Docker
 ---
 
-#### 1- Instalar Docker Community Edition 
-  - Diferentes opciones para cada sistema operativo
-  - https://docs.docker.com/
+### 1- Instalar Docker Community Edition 
   - Ejecutar el siguiente comando para comprobar versiones de cliente y demonio.
 ```bash
 docker version
 ```
+![](Extras/image.png)
 ---
 
 ### 2- Explorar DockerHub
    - Registrase en docker hub: https://hub.docker.com/
-   - Familiarizarse con el portal
+![](Extras/image1.png)
 ---
 
 ### 3- Obtener la imagen BusyBox
@@ -23,10 +22,14 @@ docker version
   ```bash
   docker pull busybox
   ```
+![](Extras/image2.png)
+![](Extras/image3.png)
+
   - Verificar qué versión y tamaño tiene la imagen bajada, obtener una lista de imágenes locales:
 ```bash
 docker images
 ```
+![](Extras/image4.png)
 ---
 
 ### 4- Ejecutando contenedores
@@ -34,22 +37,28 @@ docker images
 ```bash
 docker run busybox
 ```
-
+![](Extras/image5.png)
+![](Extras/image6.png)
   - Explicar porque no se obtuvo ningún resultado
 
   - Especificamos algún comando a correr dentro del contenedor, ejecutar por ejemplo:
 ```bash
 docker run busybox echo "Hola Mundo"
 ```
+![](Extras/image7.png)
 
   - Ver los contenedores ejecutados utilizando el comando **ps**:
 ```bash
 docker ps
 ```
+![](Extras/image8.png)
+
   - Vemos que no existe nada en ejecución, correr entonces:
 ```bash
 docker ps -a
 ```
+![](Extras/image9.png)
+
   - Mostrar el resultado y explicar que se obtuvo como salida del comando anterior.
 ---
 
@@ -58,6 +67,7 @@ docker ps -a
 ```bash
 docker run -it busybox sh
 ```
+![](Extras/image10.png)
   - Para cada uno de los siguientes comandos dentro de contenedor, mostrar los resultados:
 ```bash
 ps
@@ -65,10 +75,12 @@ uptime
 free
 ls -l /
 ```
+![](Extras/image11.png)
   - Salimos del contenedor con:
 ```bash
 exit
 ```
+![](Extras/image12.png)
 ---
 
 ### 6- Borrando contenedores terminados
