@@ -7,6 +7,8 @@
 
 ## Trabajos Practicos
 
-1. [Trabajo Practico 1](TP01/Resolucion_TP.md)<br>
+1. [Trabajo Practico 1](TP01/trabajo-practico-01.md)<br>
    1.1. [Repo A](https://github.com/TomiCassanelli/TP01-RepoA)<br>
    1.2. [Repo B](https://github.com/TomiCassanelli/TP01-RepoB)<br>
+
+2. [Trabajo Practico 2](TP02/trabajo-practico-02.md)<br>
