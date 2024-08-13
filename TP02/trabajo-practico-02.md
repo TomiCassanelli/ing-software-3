@@ -234,5 +234,5 @@ exit
 - Crear BD, Tablas y ejecutar SELECT
 ---
 
-#### 13- Presentación del trabajo práctico.
+### 13- Presentación del trabajo práctico.
 Subir un archivo md (puede ser en una carpeta) trabajo-practico-02 con las salidas de los comandos utilizados. Si es necesario incluir también capturas de pantalla.
