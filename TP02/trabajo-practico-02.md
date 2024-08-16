@@ -207,28 +207,41 @@ docker run --name myapi -d -p 80:80 mywebapi
 #ENTRYPOINT ["dotnet", "SimpleWebAPI.dll"]
 CMD ["/bin/bash"]
 ```
+![](Extras/image32.png)
+
 - Rehacemos la imagen
 ```
 docker build -t mywebapi .
 ```
+![](Extras/image33.png)
+
 - Corremos contenedor en modo interactivo exponiendo puerto
 ```
 docker run -it --rm -p 80:80 mywebapi
 ```
+![](Extras/image34.png)
+
 - Navegamos a http://localhost/weatherforecast
 - Vemos que no se ejecuta automaticamente
+![](Extras/image35.png)
+
 - Ejecutamos app:
 ```
 dotnet SimpleWebAPI.dll
 ```
--Volvemos a navegar a http://localhost/weatherforecast
+![](Extras/image36.png)
+
+- Volvemos a navegar a http://localhost/weatherforecast
+![](Extras/image37.png)
+
 - Salimos del contenedor
+![](Extras/image38.png)
 ---
   
 ### 10- Montando volúmenes
 Hasta este punto los contenedores ejecutados no tenían contacto con el exterior, ellos corrían en su propio entorno hasta que terminaran su ejecución. Ahora veremos cómo montar un volumen dentro del contenedor para visualizar por ejemplo archivos del sistema huésped:
 
-  - Ejecutar el siguiente comando, cambiar myusuario por el usuario que corresponda. En Mac puede utilizarse /Users/miusuario/temp):
+  - Ejecutar el siguiente comando, cambiar myusuario por el usuario que corresponda:
 ```bash
 docker run -it --rm -p 80:80 -v /Users/miuser/temp:/var/temp  mywebapi
 ```
@@ -237,7 +250,10 @@ docker run -it --rm -p 80:80 -v /Users/miuser/temp:/var/temp  mywebapi
 ls -l /var/temp
 touch /var/temp/hola.txt
 ```
+![](Extras/image39.png)
+
   - Verificar que el Archivo se ha creado en el directorio del guest y del host.
+![](Extras/image40.png)
 ---
 
 ### 11- Utilizando una base de datos
