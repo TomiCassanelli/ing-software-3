@@ -14,6 +14,7 @@ docker version
 
 ### 2- Explorar DockerHub
    - Registrase en docker hub: https://hub.docker.com/
+
 ![](Extras/image1.png)
 ---
 
@@ -88,10 +89,14 @@ exit
 ```bash
 docker ps -a
 ```
+![](Extras/image13.png)
+
   - Para borrar podemos utilizar el id o el nombre (autogenerado si no se especifica) de contenedor que se desee, por ejemplo:
 ```bash
 docker rm elated_lalande
 ```
+![](Extras/image14.png)
+
   - Para borrar todos los contenedores que no estén corriendo, ejecutar cualquiera de los siguientes comandos:
 ```bash
 docker rm $(docker ps -a -q -f status=exited)
@@ -99,34 +104,49 @@ docker rm $(docker ps -a -q -f status=exited)
 ```bash
 docker container prune
 ```
+![](Extras/image15.png)
 ---
 
 ### 7- Construir una imagen
 - Conceptos de DockerFile
   - Leer https://docs.docker.com/engine/reference/builder/ 
   - Describir las instrucciones
-     - FROM
-     - RUN
-     - ADD
-     - COPY
-     - EXPOSE
-     - CMD
-     - ENTRYPOINT
+     - **FROM:** Es la primera instruccion en el DockerFile. Define la imagen base desde la cual se construirá una nueva.
+     - **RUN:** Ejecuta comandos de compilación.
+     - **ADD:** Copia archivos o carpetas desde la computadora al contenedor. Puede descomprimir archivos.
+     - **COPY:** Solo copia archivos o carpetas sin descomprimir.
+     - **EXPOSE:** Indica en qué puerto va a funcionar la aplicación dentro del contenedor.
+     - **CMD:** Define el comando que se va a ejecutar cuando se inicie el contenedor.
+     - **ENTRYPOINT:** Define un comando que siempre se ejecutará cuando arranque el contenedor. Pueden ser en cadena.
+
 - A partir del código https://github.com/ingsoft3ucc/SimpleWebAPI crearemos una imagen.
 - Clonar repo
+![](Extras/image16.png)
+
 - Crear imagen etiquetándola con un nombre. El punto final le indica a Docker que use el dir actual
 ```
 docker build -t mywebapi .
 ```
+![](Extras/image17.png)
+
 - Revisar Dockerfile y explicar cada línea
+![](Extras/image18.png)
+
 - Ver imágenes disponibles
+![](Extras/image19.png)
+
 - Ejecutar un contenedor con nuestra imagen
+![](Extras/image20.png)
+
 - Subir imagen a nuestra cuenta de dockerhub
   - 7.1 Inicia sesión en Docker Hub
     - Primero, asegúrate de estar autenticado en Docker Hub desde tu terminal:
     ```bash
     docker login
     ```
+![](Extras/image21.png)
+
+
   - 7.2 Etiquetar la imagen a subir con tu nombre de usuario de Docker Hub y el nombre de la imagen. Por ejemplo:
     ```bash
     docker tag <nombre_imagen_local> <tu_usuario_dockerhub>/<nombre_imagen>:<tag>
