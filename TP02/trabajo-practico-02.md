@@ -172,24 +172,32 @@ docker build -t mywebapi .
 En el caso de aplicaciones web o base de datos donde se interactúa con estas aplicaciones a través de un puerto al cual hay que acceder, estos puertos están visibles solo dentro del contenedor. Si queremos acceder desde el exterior deberemos exponerlos.
 
   - Ejecutar la siguiente imagen, en este caso utilizamos la bandera -d (detach) para que nos devuelva el control de la consola:
-
 ```bash
 docker run --name myapi -d mywebapi
 ```
+![](Extras/image26.png)
+
   - Ejecutamos un comando ps:
+![](Extras/image27.png)
+
   - Vemos que el contendor expone 3 puertos el 80, el 5254 y el 443, pero si intentamos en un navegador acceder a http://localhost/WeatherForecast no sucede nada.
+![](Extras/image28.png)
 
   - Procedemos entonces a parar y remover este contenedor:
 ```bash
 docker kill myapi
 docker rm myapi
 ```
-  - Vamos a volver a correrlo otra vez, pero publicando el puerto 80
+![](Extras/image29.png)
 
+  - Vamos a volver a correrlo otra vez, pero publicando el puerto 80
 ```bash
 docker run --name myapi -d -p 80:80 mywebapi
 ```
+![](Extras/image30.png)
+
   - Accedamos nuevamente a http://localhost/WeatherForecast y vemos que nos devuelve datos.
+![](Extras/image31.png)
 ---
 
 ### 9- Modificar Dockerfile para soportar bash 
