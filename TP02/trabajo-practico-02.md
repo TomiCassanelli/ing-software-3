@@ -146,20 +146,25 @@ docker build -t mywebapi .
     ```
 ![](Extras/image21.png)
 
-
   - 7.2 Etiquetar la imagen a subir con tu nombre de usuario de Docker Hub y el nombre de la imagen. Por ejemplo:
     ```bash
     docker tag <nombre_imagen_local> <tu_usuario_dockerhub>/<nombre_imagen>:<tag>
     ```
+![](Extras/image22.png)
+
   - 7.3 Subir la Imagen
     - Para subir la imagen etiquetada a Docker Hub, utiliza el comando docker push:
      ```bash
      docker push <tu_usuario_dockerhub>/<nombre_imagen>:<tag>
      ```
+![](Extras/image23.png)
+
   - 7.4 Verificar la Subida
      ```bash
      docker pull <tu_usuario_dockerhub>/<nombre_imagen>:<tag>
      ```
+![](Extras/image24.png)
+![](Extras/image25.png)
 ---
 
 ### 8- Publicando puertos
@@ -265,6 +270,3 @@ exit
 - Armar un contenedor con SQL Server
 - Crear BD, Tablas y ejecutar SELECT
 ---
-
-### 13- Presentación del trabajo práctico.
-Subir un archivo md (puede ser en una carpeta) trabajo-practico-02 con las salidas de los comandos utilizados. Si es necesario incluir también capturas de pantalla.
