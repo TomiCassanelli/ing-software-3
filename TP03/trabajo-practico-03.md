@@ -45,19 +45,23 @@
 
 ### 3- Pasos del TP
  - 3.1 Crear una cuenta en Azure DevOps
+ ![](Extras/image1.png)
 
 
  - 3.2 Crear un proyecto Sample01
-
+![](Extras/image2.png)
+![](Extras/image4.png)
 
  - 3.3 Crear un repo GIT desde cero
-
+![](Extras/image3.png)
 
  - 3.4 Crear un proyecto Sample02
-
+![](Extras/image5.png)
 
  - 3.5 Importar un repo desde GitHub: https://github.com/ingsoft3ucc/SimpleWebAPI.git
-
+ ![](Extras/image6.png)
+ ![](Extras/image7.png)
+ ![](Extras/image8.png)
 
  - 3.6 Realizar un cambio en un archivo, y subirlo al repo de ADO.
 
@@ -66,7 +70,8 @@
  
  
  - 3.8 Cambiar el tipo de proceso de Basic a Agile
- 
+ ![](Extras/image9.png)
+ ![](Extras/image10.png)
  
  - 3.8 Crear un sprint
  
