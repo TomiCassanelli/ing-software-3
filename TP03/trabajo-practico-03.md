@@ -64,19 +64,27 @@
  ![](Extras/image8.png)
 
  - 3.6 Realizar un cambio en un archivo, y subirlo al repo de ADO.
-
+ ![](Extras/image11.png)
 
  - 3.7 Crear un pipeline, solicitar acceso a jobs de paralelismo
- 
+ ![](Extras/image12.png)
+![](Extras/image13.png)
+![](Extras/image14.png)
+![](Extras/image15.png)
  
  - 3.8 Cambiar el tipo de proceso de Basic a Agile
  ![](Extras/image9.png)
  ![](Extras/image10.png)
  
- - 3.8 Crear un sprint
  
+ - 3.8 Crear un sprint
+ ![](Extras/image16.png)
+ ![](Extras/image17.png)
+ ![](Extras/image18.png)
+
  
  - 3.9 Crear User Stories
- 
+ ![](Extras/image19.png)
  
  - 3.10 Crear Tasks y Bugs
+ ![](Extras/image20.png)
