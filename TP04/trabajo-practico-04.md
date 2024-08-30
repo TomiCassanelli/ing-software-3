@@ -39,7 +39,7 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
   - Agentes MS y Self-Hosted
 
 
-#### 4- Pasos del TP
+### 4- Pasos del TP
  - 4.1 Verificar acceso a Pipelines concedido
  ![](Extras/image.png)
  ![](Extras/image-1.png)
@@ -73,8 +73,8 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
  ![](Extras/image-31.png)
 
  - 4.7 Configurar CI en ambos pipelines (YAML y Classic Editor). Mostrar resultados de la ejecución automática de ambos pipelines al hacer un commit en la rama main.
-![](Extras/image-13.png)
-![](Extras/image-14.png)
+ ![](Extras/image-13.png)
+ ![](Extras/image-14.png)
  
  - 4.8 Explicar la diferencia entre un agente MS y un agente Self-Hosted. Qué ventajas y desventajas hay entre ambos? Cuándo es conveniente y/o necesario usar un Self-Hosted Agent?
  **Agente MS: Es un agente proporcionado por Microsoft que corre en la nube. Es fácil de configurar y Microsoft se encarga de su mantenimiento y escalabilidad.**
@@ -103,28 +103,28 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
   ![](Extras/image-27.png)
 
  - 4.12 Crear un nuevo proyecto en ADO clonado desde un repo que contenga una aplicación en Angular como por ejemplo https://github.com/ingsoft3ucc/angular-demo-project.git
-![alt text](image.png)
-![alt text](image-1.png)
+  ![](image-32.png)
+  ![](image-33.png)
 
  - 4.13 Configurar un pipeline de build para un proyecto de tipo Angular como el clonado.
- ![alt text](image-2.png)
- ![alt text](image-3.png)
+  ![](image-34.png)
+  ![](image-35.png)
 
  - 4.14 Habilitar CI para el pipeline.
- ![alt text](image-4.png)
+  ![](image-36.png)
 
  - 4.15 Hacer un cambio a un archivo del proyecto (algún cambio en el HTML que se renderiza por ejemplo) y verificar que se ejecute automáticamente el pipeline.
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
+ ![](image-37.png)
+ ![](image-38.png)
+ ![](image-39.png)
 
  - 4.16 Descargar el resultado del pipeline y correr en un servidor web local el sitio construido.
-![alt text](image-9.png)
-![alt text](image-10.png)
+ ![](image-40.png)
+ ![](image-41.png)
 
  - 4.17 Mostrar el antes y el después del cambio.
- ![alt text](image-8.png)
- ![alt text](image-11.png)
+  ![](image-42.png)
+  ![](image-43.png)
 
 #### 5- Presentación del trabajo práctico.
 Subir un doc al repo con las capturas de pantalla de los pasos realizados y colocar en el excel de repos (https://docs.google.com/spreadsheets/d/1mZKJ8FH390QHjwkABokh3Ys6kMOFZGzZJ3-kg5ziELc/edit?gid=0#gid=0) la url del proyecto de AzureDevops.
