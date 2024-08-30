@@ -81,21 +81,20 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
  **Agente Self-Hosted: Es un agente que configuras y mantienes en tu propia infraestructura, ya sea en servidores locales o en la nube. Es conveniente usar un agente Self-Hosted cuando necesitas un control total del entorno, tienes requisitos específicos de hardware/software**
 
  - 4.8 Crear un Pool de Agentes y un Agente Self-Hosted
- ![](Extras/image-15.png)
- ![](Extras/image-16.png)
- Token: ckn6vqkj5f4lbwyoxgitip567zazthgqhdncxthndhbwytu5geba
- ![](Extras/image-17.png)
- ![](Extras/image-18.png)
- ![](Extras/image-19.png)
+  ![](Extras/image-15.png)
+  ![](Extras/image-16.png)
+  ![](Extras/image-17.png)
+  ![](Extras/image-18.png)
+  ![](Extras/image-19.png)
 
  - 4.9 Instalar y correr un agente en nuestra máquina local.
- ![](Extras/image-20.png)
- ![](Extras/image-21.png)
- ![](Extras/image-22.png)
+  ![](Extras/image-20.png)
+  ![](Extras/image-21.png)
+  ![](Extras/image-22.png)
 
  - 4.10 Crear un pipeline que use el agente Self-Hosted alojado en nuestra máquina local.
- ![](Extras/image-23.png)
- ![](Extras/image-24.png)
+  ![](Extras/image-23.png)
+  ![](Extras/image-24.png)
 
  - 4.11 Buscar el resultado del pipeline y correr localmente el software compilado.
   ![](Extras/image-25.png)
@@ -103,28 +102,28 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
   ![](Extras/image-27.png)
 
  - 4.12 Crear un nuevo proyecto en ADO clonado desde un repo que contenga una aplicación en Angular como por ejemplo https://github.com/ingsoft3ucc/angular-demo-project.git
-  ![](image-32.png)
-  ![](image-33.png)
+  ![](Extras/image-32.png)
+  ![](Extras/image-33.png)
 
  - 4.13 Configurar un pipeline de build para un proyecto de tipo Angular como el clonado.
-  ![](image-34.png)
-  ![](image-35.png)
+  ![](Extras/image-34.png)
+  ![](Extras/image-35.png)
 
  - 4.14 Habilitar CI para el pipeline.
-  ![](image-36.png)
+  ![](Extras/image-36.png)
 
  - 4.15 Hacer un cambio a un archivo del proyecto (algún cambio en el HTML que se renderiza por ejemplo) y verificar que se ejecute automáticamente el pipeline.
- ![](image-37.png)
- ![](image-38.png)
- ![](image-39.png)
+  ![](Extras/image-37.png)
+  ![](Extras/image-38.png)
+  ![](Extras/image-39.png)
 
  - 4.16 Descargar el resultado del pipeline y correr en un servidor web local el sitio construido.
- ![](image-40.png)
- ![](image-41.png)
+  ![](Extras/image-40.png)
+  ![](Extras/image-41.png)
 
  - 4.17 Mostrar el antes y el después del cambio.
-  ![](image-42.png)
-  ![](image-43.png)
+  ![](Extras/image-42.png)
+  ![](Extras/image-43.png)
 
 #### 5- Presentación del trabajo práctico.
 Subir un doc al repo con las capturas de pantalla de los pasos realizados y colocar en el excel de repos (https://docs.google.com/spreadsheets/d/1mZKJ8FH390QHjwkABokh3Ys6kMOFZGzZJ3-kg5ziELc/edit?gid=0#gid=0) la url del proyecto de AzureDevops.
