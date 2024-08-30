@@ -57,8 +57,8 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
 
  - 4.4 Descargar el resultado del pipeline y correr localmente el software compilado.
   ![](Extras/image-7.png)
-  ![](Extras/image-26.png)
-  ![](Extras/image-27.png)
+  ![](Extras/image28.png)
+  ![](Extras/image29.png)
 
  **dotnet SimpleWebAPI.dll   -> Diapo 7, instalar Dotnet, angular y node**
  - 4.5 Habilitar el editor clásico de pipelines. Explicar las diferencias claves entre este tipo de editor y el editor YAML.
@@ -69,8 +69,8 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
  ![](Extras/image-10.png)
  ![](Extras/image-11.png)
  ![](Extras/image-12.png)
- ![](Extras/image-26.png)
- ![](Extras/image-27.png)
+ ![](Extras/image-30.png)
+ ![](Extras/image-31.png)
 
  - 4.7 Configurar CI en ambos pipelines (YAML y Classic Editor). Mostrar resultados de la ejecución automática de ambos pipelines al hacer un commit en la rama main.
 ![](Extras/image-13.png)
@@ -82,7 +82,8 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
 
  - 4.8 Crear un Pool de Agentes y un Agente Self-Hosted
  ![](Extras/image-15.png)
- ![](Extras/image-16.png) ckn6vqkj5f4lbwyoxgitip567zazthgqhdncxthndhbwytu5geba
+ ![](Extras/image-16.png)
+ Token: ckn6vqkj5f4lbwyoxgitip567zazthgqhdncxthndhbwytu5geba
  ![](Extras/image-17.png)
  ![](Extras/image-18.png)
  ![](Extras/image-19.png)
@@ -102,11 +103,28 @@ Estas prácticas son esenciales en el desarrollo de software ágil y permiten la
   ![](Extras/image-27.png)
 
  - 4.12 Crear un nuevo proyecto en ADO clonado desde un repo que contenga una aplicación en Angular como por ejemplo https://github.com/ingsoft3ucc/angular-demo-project.git
+![alt text](image.png)
+![alt text](image-1.png)
+
  - 4.13 Configurar un pipeline de build para un proyecto de tipo Angular como el clonado.
+ ![alt text](image-2.png)
+ ![alt text](image-3.png)
+
  - 4.14 Habilitar CI para el pipeline.
+ ![alt text](image-4.png)
+
  - 4.15 Hacer un cambio a un archivo del proyecto (algún cambio en el HTML que se renderiza por ejemplo) y verificar que se ejecute automáticamente el pipeline.
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+
  - 4.16 Descargar el resultado del pipeline y correr en un servidor web local el sitio construido.
+![alt text](image-9.png)
+![alt text](image-10.png)
+
  - 4.17 Mostrar el antes y el después del cambio.
+ ![alt text](image-8.png)
+ ![alt text](image-11.png)
 
 #### 5- Presentación del trabajo práctico.
 Subir un doc al repo con las capturas de pantalla de los pasos realizados y colocar en el excel de repos (https://docs.google.com/spreadsheets/d/1mZKJ8FH390QHjwkABokh3Ys6kMOFZGzZJ3-kg5ziELc/edit?gid=0#gid=0) la url del proyecto de AzureDevops.
