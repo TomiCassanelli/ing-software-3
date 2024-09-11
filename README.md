@@ -16,3 +16,6 @@
 3. [Trabajo Practico 3](TP03/trabajo-practico-03.md)<br>
 
 4. [Trabajo Practico 4](TP04/trabajo-practico-04.md)<br>
+
+5. [Trabajo Practico 5](TP05/trabajo-practico-05.md)<br>
+
