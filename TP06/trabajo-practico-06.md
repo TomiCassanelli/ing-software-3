@@ -191,7 +191,3 @@ C\. Crear las pruebas unitarias necesarias en el front para validar las modifica
 
 ### 7-  Criterio de Calificación
 Los pasos 4.1 al 4.5 representan un 60% de la nota total, los pasos 4.6 y subsiguientes representan el 40% restante.
-
-
-
-
