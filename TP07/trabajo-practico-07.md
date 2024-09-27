@@ -35,11 +35,11 @@ Este trabajo práctico corresponde a la unidad Nº: 5 (Libro Ingeniería de Soft
 
 #### 4.2 Agregar Análisis Estático de Código con SonarCloud:
 - ##### 4.2.1 Integraremos SonarCloud para analizar el código fuente. Configurar SonarCloud en nuestro pipeline siguiendo instructivo 5.1
-	  - Antes de nuestra tarea de Build del Back:
-	  ![](Extras/image-9.png)
+- ###### 4.2.1.1 Antes de nuestra tarea de Build del Back:
+![](Extras/image-9.png)
 
-  	  - Despues de nuestra tarea de Build del Back:
-	  ![](Extras/image-10.png)
+- ###### 4.2.1.2 Despues de nuestra tarea de Build del Back:
+![](Extras/image-10.png)
 
 - ##### 4.2.2 Vemos el resultado de nuestro pipeline, en extensions tenemos un link al análisis realizado por SonarCloud
 ![](Extras/image-11.png)
@@ -111,9 +111,12 @@ Cypress captura automáticamente pantallas cuando una prueba falla. Las capturas
 ##### 4.4.1 Integrar en el pipeline SonarCloud para nuestro proyecto Angular, mostrar el resultado obtenido en SonarCloud
 En un primer momento, solo tenia una tarea que analizaba el Back, realizado en actividades anteriores, por lo que decidi subdividirlo, un analisis de SonarCloud para Front y otro para Back, bajo la misma Key de SonarCloud.
 * Back-End
+
 ![](Extras/image-35.png)
 ![](Extras/image-36.png)
+
 * Front-End
+
 ![](Extras/image-37.png)
 ![](Extras/image-38.png)
 
@@ -148,7 +151,6 @@ Pasos previos para llegar a las siguientes Extras/imagenes:
 - Un Pipeline en YAML que incluya a) Build de QA y Front con ejecución y resultado de pruebas de code coverage, pruebas unitarias y análisis de Sonar Cloud y b) Deploy a WebApp(s) de QA y Front que incluya ejecución y resultado de pruebas de integración.
 
 ![](Extras/image-62.png)
-
 ![](Extras/image-55.png)
 ![](Extras/image-56.png)
 ![](Extras/image-57.png)
@@ -174,23 +176,14 @@ Pasos previos para llegar a las siguientes Extras/imagenes:
 
 En este análisis, utilizamos **SonarCloud** y revisamos la cobertura de código de nuestro proyecto **EmployeeAngular_front y EmployeeAngular_back**. Esto es lo que encontré:
 
-**Cobertura Total**
-La cobertura de código es del 54.11%, lo que quiere decir que un poco más de la mitad del código está siendo cubierto por nuestras pruebas unitarias y de integración. De las 146 líneas de código, 79 están cubiertas. No está mal, pero claramente se podría mejorar.
+**Cobertura Total:** La cobertura de código es del 54.11%, lo que quiere decir que un poco más de la mitad del código está siendo cubierto por nuestras pruebas unitarias y de integración. De las 146 líneas de código, 79 están cubiertas. No está mal, pero claramente se podría mejorar.
 
 El reporte analiza 10 módulos del proyecto. Algunos de estos módulos están cubiertos al 100%, pero otros o están a medias o ni siquiera tienen pruebas, llegando a un 0%. Este es un punto importante que habría que cambiar para tener más control sobre cómo responde el código en caso de cambios o actualizaciones.
 
-**Análisis de SonarCloud**
-El análisis de SonarCloud nos trae buenas noticias:
-
-**Quality Gate: Aprobado**
-Nuestro proyecto pasó la barrera de calidad. Básicamente, significa que no tenemos problemas graves ni bugs críticos que puedan romper todo. Así que en este aspecto, estaría bien.
-
-**Issues: Todo limpio**
-El código está “limpio”, al menos según lo que SonarCloud pudo detectar.
-
-**Seguridad y Duplicaciones**
-0 Security Hotspots: No se detectaron vulnerabilidades, lo cual siempre es un alivio. El código parece estar bastante sólido en cuanto a seguridad.
-0% de Duplicaciones en el código nuevo: No se encontraron duplicaciones en las líneas nuevas, lo que ayuda a que el código se mantenga ordenado y fácil de mantener.
+**Análisis de SonarCloud:** El análisis de SonarCloud nos trae buenas noticias:
+- **Quality Gate: Aprobado:** Nuestro proyecto pasó la barrera de calidad. Básicamente, significa que no tenemos problemas graves ni bugs críticos que puedan romper todo. Así que en este aspecto, estaría bien.
+- **Issues: Todo limpio:** El código está “limpio”, al menos según lo que SonarCloud pudo detectar.
+- **Seguridad y Duplicaciones:** 0 Security Hotspots: No se detectaron vulnerabilidades, lo cual siempre es un alivio. El código parece estar bastante sólido en cuanto a seguridad. 0% de Duplicaciones en el código nuevo: No se encontraron duplicaciones en las líneas nuevas, lo que ayuda a que el código se mantenga ordenado y fácil de mantener.
 
 
 ### 6-  Presentación del trabajo práctico.
