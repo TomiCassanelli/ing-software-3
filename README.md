@@ -22,3 +22,5 @@
 6. [Trabajo Practico 6](TP06/trabajo-practico-06.md)<br>
 
 7. [Trabajo Practico 7](TP07/trabajo-practico-07.md)<br>
+
+8. [Trabajo Practico 8](TP08/trabajo-practico-08.md)<br>
