@@ -75,6 +75,14 @@ Para finalizar este Trabajo Practico Integrador, desarrollé un nuevo pipeline q
 ![](Extras/image-21.png)
 ![](Extras/image-22.png)
 
+Resultados de TODOS los Front, comunicandose exitosamente con sus respectivos Back:
+![](Extras/image-23.png)
+![](Extras/image-24.png)
+![](Extras/image-25.png)
+![](Extras/image-26.png)
+![](Extras/image-27.png)
+![](Extras/image-28.png)
+
 ### 6-  Presentación del trabajo práctico.
 - Subir un doc al repo de GitHub con las capturas de pantalla de los pasos realizados. Debe ser un documento (md, word, o pdf), no videos. Y el documento debe seguir los pasos indicados en el Desarrollo del TP.
 - Acceso al repo de Azure Devops para revisar el trabajo realizado.
